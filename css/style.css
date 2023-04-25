@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 100vh;
+  background: #09121a;
+  /* background: #fff; */
+}
+
+.button {
+  display: inline-flex;
+  gap: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  border: none;
+  /*   outline-color: transparent; */
+  cursor: pointer;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  text-shadow: 0 .5px 1px rgba(0, 0, 0, 0.4);
+  font-size: 1.3em;
+}
+
+/* Button 1 */
+.btn-1 { 
+  color: #8af9fe;
+  background: transparent;
+  border: 3px solid #7deef4;
+}
+
+.btn-1:hover,
+.btn-1:focus {
+  color: #d1f8f9;
+  background: transparent;
+  box-shadow: 0 0 78px 4px #01e3ef,
+              0 0 12px 6px #01e3ef,
+        inset 0 0 12px 6px #01e3ef;
+  filter: drop-shadow(0 0 30px #01e3ef);
+}
+
+/* Button 2 */
+.btn-2 {
+  color: #94befc;
+  background: transparent;
+  border: 3px solid #5f9af4;
+  border-radius: 6px;
+}
+
+.btn-2:hover,
+.btn-2:focus {
+  color: #c0d6f8;
+  background: transparent;
+  box-shadow: 0 0 78px 4px #0160ef,
+              0 0 12px 6px #0160ef,
+        inset 0 0 12px 6px #0160ef;
+  filter: drop-shadow(0 0 30px #0160ef);
+}
+
+/* Button 3 */
+.btn-3 {
+  color: #d5b1fb;
+  background: transparent;
+  border: 3px solid #bb96e3;
+  border-radius: 50px;
+}
+
+.btn-3:hover,
+.btn-3:focus {
+  color: #dac6f1;
+  background: transparent;
+  box-shadow: 0 0 78px 4px #7401ef,
+              0 0 12px 6px #7401ef,
+        inset 0 0 12px 6px #7401ef;
+  filter:drop-shadow(0 0 30px #7401ef);
+}
+
